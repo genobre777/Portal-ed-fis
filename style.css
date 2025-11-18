@@ -1,0 +1,67 @@
+body { margin:0; font-family: Inter, system-ui, Arial; background: linear-gradient(180deg,#eef6ff,#f8fbff); color:#102a43; }
+<h4>Tópicos:</h4>
+<ol>
+<li>Sistema esquelético — ossos longos, curtos e planos</li>
+<li>Músculos — contração, tipos de fibras</li>
+<li>Articulações — tipos e mobilidade</li>
+<li>Regiões do corpo — cabeça, tronco, membros</li>
+</ol>
+`},
+{id:'fisiologia', title:'Fisiologia do Exercício', summary:'Energia, VO2, resposta cardio-respiratória e adaptações ao treino.', content: `
+
+
+<h3>Fisiologia do Exercício</h3>
+<p>Energia: ATP, vias aeróbicas e anaeróbicas. Respostas cardiovasculares e ventilatórias ao exercício.</p>
+`},
+{id:'biomecanica', title:'Biomecânica & Cinesiologia', summary:'Leis do movimento, alavancas e análise de técnica.', content: `
+
+
+<h3>Biomecânica</h3>
+<p>Princípios de alavancas, torque, centro de massa e análise de movimento.</p>
+`},
+{id:'treinamento', title:'Treinamento e Periodização', summary:'Métodos de força, resistência e periodização do treino.', content: `
+
+
+<h3>Treinamento e Periodização</h3>
+<p>Conceitos: volume, intensidade, frequência, recuperação e periodização.</p>
+`},
+{id:'nutricao', title:'Nutrição Esportiva', summary:'Macronutrientes, hidratação e estratégias pré/pós-treino.', content: `
+
+
+<h3>Nutrição Esportiva</h3>
+<p>Planejamento nutricional para desempenho e recuperação.</p>
+`},
+{id:'psicologia', title:'Psicologia do Esporte', summary:'Motivação, foco e controle de ansiedade em atletas.', content: `
+
+
+<h3>Psicologia do Esporte</h3>
+<p>Técnicas de motivação, setting de objetivos e intervenção comportamental.</p>
+`}
+],
+
+
+library: [
+{id:'leit1', title:'Resumo: Introdução à Fisiologia', text:`Resumo introdutório cobrindo ATP, sistema cardiovascular e resposta ao exercício.`},
+{id:'leit2', title:'Guia prático de alongamento', text:`Protocolos passo-a-passo para alongamento seguro e progressivo.`}
+],
+
+
+quizzes: [
+{id:'quiz1', title:'Quiz — Anatomia Básica', questions:[
+{q:'Qual é o maior osso do corpo humano?', options:['Fêmur','Tíbia','Úmero','Rádio'], answer:0},
+{q:'Qual músculo é principal na flexão do cotovelo?', options:['Bíceps braquial','Tríceps braquial','Brachioradial','Peitoral maior'], answer:0}
+]},
+{id:'quiz2', title:'Quiz — Fisiologia do Exercício', questions:[
+{q:'Via de energia rápida anaeróbica é denominada:', options:['Fosfocreatina','Glicólise aeróbica','Fosforilação oxidativa','Ciclo de Krebs'], answer:0},
+{q:'VO2 máximo é uma medida de:', options:['Força','Capacidade aeróbica','Flexibilidade','Agilidade'], answer:1}
+]}
+],
+
+
+simulated_tests: [
+{id:'sim1', title:'Simulado — Básico EF', time:300, questions:[
+{q:'Qual é a unidade estrutural do músculo?', options:['Sarcolema','Sarcómero','Miófibrila','Endomísio'], answer:1},
+{q:'O que avalia o VO2max?', options:['Força','Capacidade aeróbica','Potência anaeróbica','Composição corporal'], answer:1}
+]}
+]
+};
