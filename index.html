@@ -1,0 +1,66 @@
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Portal Educação Física — Interativo</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+<div class="brand">🏃‍♀️ Portal IFitness</div>
+<nav class="nav">
+<a href="#modulos">Módulos</a>
+<a href="#exercicios">Exercícios</a>
+<a href="#simulados">Simulados</a>
+<a href="#biblioteca">Biblioteca</a>
+</nav>
+<div class="search-inline">
+<input id="globalSearch" placeholder="Busca inteligente (pesquisa interna)" />
+<button onclick="doInternalSearch()">Buscar</button>
+</div>
+</header>
+
+
+<main>
+<section class="hero">
+<h1>Portal de Estudos — Educação Física</h1>
+<p>Conteúdos internos, exercícios interativos, simulados e busca inteligente — tudo offline, sem abrir links externos.</p>
+<a class="cta" href="#modulos">Começar</a>
+</section>
+
+
+<section id="modulos" class="section">
+<h2>Módulos</h2>
+<div id="modulesGrid" class="grid"></div>
+</section>
+
+
+<section id="exercicios" class="section">
+<h2>Exercícios Interativos</h2>
+<div id="exerciseArea"></div>
+</section>
+
+
+<section id="simulados" class="section">
+<h2>Simulados</h2>
+<div id="simuladosList"></div>
+<div id="simuladoRunner"></div>
+</section>
+
+
+<section id="biblioteca" class="section">
+<h2>Biblioteca Interna</h2>
+<div id="libraryContent"></div>
+</section>
+</main>
+
+
+<footer>
+<p>IFitness • Portal temático de Educação Física — Conteúdos offline</p>
+</footer>
+
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
